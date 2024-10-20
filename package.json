@@ -1,0 +1,28 @@
+{
+  "name": "random",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.0.7",
+    "glsl-constants": "^2.0.0",
+    "glsl-easings": "^1.0.0",
+    "gsap": "^3.12.2",
+    "sass": "^1.63.6",
+    "three": "^0.158.0",
+    "vite-plugin-glslify": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/three": "^0.158.2",
+    "lil-gui": "^0.18.2",
+    "prettier": "^3.1.0",
+    "prettier-plugin-astro": "^0.12.2"
+  }
+}
